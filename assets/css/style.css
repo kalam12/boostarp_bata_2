@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none outside none;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+  outline: 0 solid; }
+
+a {
+  text-decoration: none; }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* orange */
+/* black */
+/* navy : #2d3142 */
+/* grey */
+/* whitesmoke */
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px;
+  font-family: 'Indie Flower', cursive;
+}
+
+body{
+
+ font-family: 'Indie Flower', cursive;
+  font-size: 14px;
+  line-height: 1.8;
+  box-sizing: border-box;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+ul li{
+  flex: 1 0 auto;
+  text-align: center;
+  list-style-type: none;
+  background-color: #ced0ca;
+}
+ul li a{
+text-decoration: none !important;
+padding: 2px;
+color: #2d3142;
+}
+ul li:hover{
+  background-color: #f15025;
+  color: #2d3142;
+}
+header{
+  height: 100vh;
+  background-image: url(../img/banner3.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner-center{
+ height: 100vh;
+ color: whitesmoke;
+ display:flex;
+ flex-direction: column;
+ justify-content: flex-end;
+ padding: 75px;
+}
+.banner-center h1{
+font-size: 150px;
+}
+.banner-underline {
+  width: 300px;
+  border: 3px solid #f15025;
+  margin: 0 auto 27px auto;
+}
+.banner-center p {
+  color: #fff !important;
+  margin-bottom: 7px;
+}
+.btn-holder{
+  display: flex;
+  justify-content: center;
+}
+.white-btn,
+.navy-btn{
+  font-size: 30px;
+  color: whitesmoke;
+  margin: 0 30px;
+  text-decoration: none !important;
+  border-radius: 20px;
+  padding: 10px 30px;
+}
+.navy-btn{
+  background-color: #2d3142;
+  border: 3px solid #353531;
+}
+.white-btn{
+  border: 3px solid whitesmoke;
+}
+.white-btn:hover,
+.white-btn:focus{
+  background-color: whitesmoke;
+  color: #f15025;
+}
+
+/* qulitys */
+
+.titles{
+  margin: 20px 0 40px 0;
+}
+.text-underline{
+  width: 150px;
+  border: 3px solid #f15025;
+  margin: 0 auto 10px auto;
+}
+#qulitys h2{
+margin-bottom: 20px;
+
+}
+p.text-muted {
+  margin-bottom: 20px !important;
+}
+#qulitys {
+  background-color: #ced0ca;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.svg-inline--fa{margin-bottom: 10px; font-size: 100px; color: #f15025;}
+
+
+
+
+
+/* projects start */
+
+#Project{
+  padding: 20px 0 0 0;
+  color: whitesmoke;
+  background: #2d3142;
+}
+.left{
+  padding-left: 0; 
+}
+.right{
+  padding-right: 0;
+}
+#Project{
+  overflow: hidden;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+/* end of project */
+
+/* media */
+@media screen and (max-width:767px) {
+  .banner-center h1{
+    font-size: 60px;
+  }
+}
+@media screen and (max-width:576px) {
+  .banner-center h1{
+    font-size: 40px;
+  }
+  .banner-underline{
+   width: 200px;
+  }
+  .btn-holder {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#Project .row{
+  display: flex;
+  flex-direction: column;
+}
+.item-1{
+  order: 1;
+}
+.item-2{
+  order: 2;
+}
+.item-3{
+  order: 4;
+}
+.item-4{
+  order: 3;
+}
+.item-5{
+  order: 5;
+}
+.item-6{
+  order: 6;
+}
+
+}
+/* contract */
+#contract{
+ padding: 40px;
+ background-color: whitesmoke;
+
+}
+#contract .form-control{
+  border-radius: 0;
+  font-size: 20px;
+}
+#contract button{
+  background-color: #353531;
+  font-size: 24px;
+  color: #F15025;
+  margin-bottom: 20px;
+}
+#contract button:hover{
+  background-color: #ced0ce;
+}
+.contract-pic {
+  max-width: 59%;
+  height: 93%;
+}
+/* footer */
+
+#footer{
+  padding: 40px;
+  color: whitesmoke;
+  background-color: #353531;
+}
+.#footer h2{
+  margin-bottom: 20px;
+
+}
+#footer p{
+  font-size: 20px;
+}
+
+.footer-icon .svg-inline--fa{margin-bottom:0px; font-size: 20px; color: #f15025;} 
+
+
+
+
+#footer .websites a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #f15025;
+  display:block;
+}
+
+#footer .websites a:hover{
+  color: #aed0ce;
+}
+#footer hr{
+  background-color: whitesmoke;
+}
+.lower-row{
+  margin-top: 40px;
+}
